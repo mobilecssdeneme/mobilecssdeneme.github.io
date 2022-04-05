@@ -52,7 +52,7 @@ header {
     align-items: center;
     display: none;
     z-index: 1;
-    font-size: 12pt;
+    font-size: 20pt;
     font-weight: bold;
     transition-property: background-color;
     transition-timing-function: ease-out;
@@ -60,7 +60,7 @@ header {
     transition-delay: 0.3s;
 }
 p {
-    font-size: 8pt;
+    font-size: 16pt;
     bottom: 8vh;
     align-items: center;
     text-align: center;
