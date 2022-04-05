@@ -2,6 +2,7 @@ body {
     background: linear-gradient(to right,rgb(235, 169, 69),rgb(230, 147, 147) ,rgb(220, 59, 129));
     justify-content: center;
     align-items: center;
+    height: 200px;
 }
 header {
     top: 1cm;
@@ -25,7 +26,7 @@ header {
     margin-top: 3vh;
 }
 #slide {
-    width: 100vh;
+    width: 100px;
     height: 50px;
     bottom: 0px;
     position: absolute;
@@ -40,10 +41,10 @@ header {
     position: absolute;
 }
 #icerik {
-    width: 50vh;
-    height: 200px;
-    margin-left: 5vh;
-    margin-right: 5vh;
+    width: 100px;
+    height: 100px;
+    margin-left: 25vh;
+    margin-right: 25vh;
     color: rgb(255, 255, 255);
     position: absolute;
     text-align: center;
@@ -59,7 +60,7 @@ header {
     transition-delay: 0.3s;
 }
 p {
-    font-size: 12pt;
+    font-size: 14pt;
     bottom: 8vh;
     align-items: center;
     text-align: center;
@@ -77,9 +78,9 @@ span {
 #foto {
     display: flex;
     position: absolute;
-    width: 50vh;
-    height: 200px;
-    margin-left: 5vh;
+    width: 100px;
+    height: 100px;
+    margin-left: 15vh;
     display: none;
 }
 #slide:hover {
