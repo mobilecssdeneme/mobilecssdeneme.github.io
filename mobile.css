@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to right,rgb(235, 169, 69),rgb(230, 147, 147) ,rgb(220, 59, 129));
+    height: 98vh;
+    width: 480px;
+}
+header {
+    top: 1cm;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-size: 30pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative; 
+}
