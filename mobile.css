@@ -43,7 +43,7 @@ header {
 #icerik {
     width: 300px;
     height: 250px;
-    margin-left: 6vh;
+    margin-left: 3vh;
     margin-right: 25vh;
     color: rgb(255, 255, 255);
     position: absolute;
@@ -80,7 +80,7 @@ span {
     position: absolute;
     width: 300px;
     height: 250px;
-    margin-left: 6vh;
+    margin-left: 3vh;
     display: none;
 }
 #slide:hover {
