@@ -41,8 +41,8 @@ header {
     position: absolute;
 }
 #icerik {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-left: 25vh;
     margin-right: 25vh;
     color: rgb(255, 255, 255);
@@ -52,7 +52,7 @@ header {
     align-items: center;
     display: none;
     z-index: 1;
-    font-size: 25pt;
+    font-size: 12pt;
     font-weight: bold;
     transition-property: background-color;
     transition-timing-function: ease-out;
@@ -60,7 +60,7 @@ header {
     transition-delay: 0.3s;
 }
 p {
-    font-size: 14pt;
+    font-size: 8pt;
     bottom: 8vh;
     align-items: center;
     text-align: center;
@@ -78,8 +78,8 @@ span {
 #foto {
     display: flex;
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-left: 15vh;
     display: none;
 }
