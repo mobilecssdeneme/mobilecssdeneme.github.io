@@ -1,7 +1,9 @@
 body {
     background: linear-gradient(to right,rgb(235, 169, 69),rgb(230, 147, 147) ,rgb(220, 59, 129));
     height: 40vh;
-    width: 300px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
 }
 header {
     top: 1cm;
