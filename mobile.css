@@ -42,8 +42,8 @@ header {
 #icerik {
     width: 50vh;
     height: 200px;
-    margin-left: 25vh;
-    margin-right: 25vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
     color: rgb(255, 255, 255);
     position: absolute;
     text-align: center;
@@ -59,7 +59,7 @@ header {
     transition-delay: 0.3s;
 }
 p {
-    font-size: 14pt;
+    font-size: 12pt;
     bottom: 8vh;
     align-items: center;
     text-align: center;
@@ -79,7 +79,7 @@ span {
     position: absolute;
     width: 50vh;
     height: 200px;
-    margin-left: 25vh;
+    margin-left: 5vh;
     display: none;
 }
 #slide:hover {
