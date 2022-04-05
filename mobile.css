@@ -24,3 +24,78 @@ header {
     position: relative;
     margin-top: 3vh;
 }
+#slide {
+    width: 100vh;
+    height: 50px;
+    bottom: 0px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+#slideFoto {
+    height: 120px;
+    width: 200px;
+    bottom: 0cm;
+    left: 2cm;
+    position: absolute;
+}
+#icerik {
+    width: 50vh;
+    height: 200px;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 1;
+    font-size: 25pt;
+    font-weight: bold;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+}
+p {
+    font-size: 14pt;
+    bottom: 8vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+}
+a {
+    color: white;
+    font-style: italic;
+}
+span {
+    top: 8vh;
+    position: absolute;
+}
+#foto {
+    display: flex;
+    position: absolute;
+    width: 50vh;
+    height: 200px;
+    margin-left: 25vh;
+    display: none;
+}
+#slide:hover {
+    bottom: 300px;
+    transition: bottom 0.6s ease-out;
+}
+#slide:hover #slideFoto {
+    display: none;
+}
+#slide:hover #icerik {
+    display: flex;
+    background-color: rgba(22, 14, 22, 0.8);
+}
+#slide:hover #foto {
+    display: flex;
+}
+#slide {
+    transition: bottom 0.1s ease-out;
+}
