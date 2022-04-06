@@ -78,7 +78,7 @@ body {
     margin-top: 20vh;
 }
 #ucuncuKisim {
-    height: 100vh;
+    height: 120vh;
     align-items: center;
     justify-content: center;
     padding: 5vh;
@@ -114,10 +114,10 @@ img {
     bottom: 0;
 }
 footer {
-    height: 8vh;
+    height: 6vh;
     text-align: center;
     color: white;
     font-weight: 400;
-    font-size: 24pt;
+    font-size: 20pt;
     padding-top: 2vh;
 }
