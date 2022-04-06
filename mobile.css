@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to right,rgb(235, 169, 69),rgb(230, 147, 147) ,rgb(220, 59, 129));
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+header {
+    top: 1cm;
+    text-align: center;
+    justify-content: center;
+    padding: 6px;
+    color: white;
+    font-size: 24pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative; 
+}
+#aciklama {
+    text-align: center;
+    justify-content: center;
+    padding: 6px;
+    font-size: 14pt;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin-top: 3vh;
+}
+#slide {
+    width: 100px;
+    height: 50px;
+    bottom: 0px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+#slideFoto {
+    height: 120px;
+    width: 200px;
+    bottom: 0cm;
+    left: 2cm;
+    position: absolute;
+}
+#icerik {
+    width: 300px;
+    height: 250px;
+    margin-left: 3vh;
+    margin-right: 25vh;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 1;
+    font-size: 20pt;
+    font-weight: bold;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+}
+p {
+    font-size: 16pt;
+    bottom: 8vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+}
+a {
+    color: white;
+    font-style: italic;
+}
+span {
+    top: 8vh;
+    position: absolute;
+}
+#foto {
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    margin-left: 3vh;
+    display: none;
+}
+#slide:hover {
+    bottom: 320px;
+    transition: bottom 0.6s ease-out;
+}
+#slide:hover #slideFoto {
+    display: none;
+}
+#slide:hover #icerik {
+    display: flex;
+    background-color: rgba(22, 14, 22, 0.8);
+}
+#slide:hover #foto {
+    display: flex;
+}
+#slide {
+    transition: bottom 0.1s ease-out;
+}

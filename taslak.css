@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+#baslangic {
+    background: linear-gradient(to right,rgb(212, 145, 43),rgb(215, 105, 105) ,rgb(220, 59, 129));
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#anaBaslik {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30pt;
+    position: relative;
+    padding: 40px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#aciklama {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: 4cm;
+}
+#aciklamaBaslik {
+    color: white;
+    font-weight: 700;
+    font-size: 36pt;
+    position: relative;
+}
+#aciklamaP {
+    color: white;
+    font-weight: 500;
+    font-size: 28pt;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+#ikinciKisim {
+    height: 100vh;
+    justify-content: space-around;
+    position: relative;
+    border-bottom: 5pt solid rgb(212, 145, 43);
+}
+#ikinciKisim section {
+    height: 48vh;
+    width: 65.7vh;
+    float: left;
+    margin: 1vh;
+    position: relative;
+    text-align: center;
+}
+#ikinciS1 {
+    background-color: rgb(120, 221, 159);
+}
+#ikinciS2 {
+    background-color: rgb(128, 213, 211);
+}
+#ikinciS3 {
+    background-color: rgb(188, 206, 117);
+}
+#ikinciS4 {
+    background-color: rgb(213, 210, 118);
+}
+#ikinciS5 {
+    background-color: rgb(203, 137, 190);
+}
+#ikinciS6 {
+    background-color: rgb(122, 195, 150);
+}
+#ikinciKisim section header {
+    color: black;
+    font-weight: 700;
+    font-size: 36pt;
+    position: relative;
+    margin-top: 20vh;
+}
+#ucuncuKisim {
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+    padding-left: 30vh;
+    padding-right: 20vh;
+    background-color: rgb(215, 235, 228);
+}
+img {
+    float: right;
+    margin: 2vh;
+    border: 2pt solid rgb(212, 145, 43);
+}
+#ucuncuKisim header {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40pt;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+#ucuncuKisim p {
+    font-weight: 500;
+    font-size: 20pt;
+    color: rgb(61, 65, 68);
+}
+#footer {
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(212, 145, 43),rgb(215, 105, 105) ,rgb(220, 59, 129));
+    bottom: 0;
+}
+footer {
+    height: 8vh;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 24pt;
+    padding-top: 2vh;
+}
